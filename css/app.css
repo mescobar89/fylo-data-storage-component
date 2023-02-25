@@ -340,7 +340,7 @@ h2, p {
 
 .fylo__gb {
     font-size: 1.4rem;
-    color: var(--grayish-blue);
+    color: hsl(228, 7%, 45%);
     vertical-align: middle;
     text-transform: uppercase;
 }
@@ -392,7 +392,7 @@ h2, p {
     display: flex;
     justify-content: center;
     padding: 2rem 0;
-    font-size: 1rem;
+    font-size: 1.3rem;
 }
 
 @media (min-width: 992px) {
@@ -407,9 +407,9 @@ h2, p {
 }
 
 .attribution__text {
-    color: rgb(51, 78, 189);
+    color: var(--white);
 }
 
 .attribution__link {
-    color: rgb(59, 94, 235);
+    color: var(--white);
 }
