@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
+    <meta name="description" content="Fylo Data Storage Component. Desafío de Frontend Mentor desarrollado con HTML5, CSS3 y metodología BEM">
+    <meta name="theme-color" content="#1d2c67">
+    <meta name="msapplication-navbutton-color" content="#1d2c67">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>Frontend Mentor | Fylo data storage component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+    <main class="fylo">
+        <div class="fylo__content container">
+            <div class="fylo__upload">
+                <img class="fylo__brand" src="img/logo.svg" width="135" height="40" alt="brand fylo">
+
+                <div class="fylo__file">
+                    <div href="" class="fylo__icon-box">
+                        <img class="fylo__icon" src="img/icon-document.svg" width="20" height="24" alt="document icon">
+                    </div>
+
+                    <div href="" class="fylo__icon-box">
+                        <img class="fylo__icon" src="img/icon-folder.svg" width="24" height="20" alt="folder icon">
+                    </div>
+
+                    <div class="fylo__icon-box fylo__input-box">
+                        <input class="fylo__input" type="file" aria-label="Archivo" data-multiple-caption="{count} archivos seleccionados" multiple>
+
+                        <label class="fylo__file-name" for="#">
+                            <span></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="fylo__data">
+                <h2 class="fylo__storage">You’ve used <span>815 GB</span> of your storage</h2>
+
+                <div class="fylo__progress-bar">
+                    <div class="fylo__progress"></div>
+                </div>
+
+                <div class="fylo__range">
+                    <div class="fylo__range-min">0 GB</div>
+                    <div class="fylo__range-max">1000 GB</div>
+                </div>
+
+                <div class="fylo__available">
+                    <p class="fylo__number" data-val="180"></p>
+                    <p class="fylo__gb">GB Left</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="attribution">
+            <div class="attribution__grid">
+                <p class="attribution__text">Challenge by
+                    <a class="attribution__link" href="https://www.frontendmentor.io?ref=challenge"
+                        target="_blank">Frontend Mentor</a>.
+                </p>
+
+                <p class="attribution__text">Coded by
+                    <a class="attribution__link" href="https://github.com/mescobar89" target="_blank">Martín Escobar</a>.
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/script.js"> </script>
+</body>
+</html>
